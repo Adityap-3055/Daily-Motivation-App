@@ -1,19 +1,110 @@
+App {
+  font-family: sans-serif;
+}
+
+.section {
+  background-image: linear-gradient(to right top, #02275d, #112a66, #1f2e70, #2b3078, #383381);
+  border: 1px solid grey;
+  height: 100vh;
+  position: relative;
+}
+
+
+.container {
+  background-image: linear-gradient(to bottom, #efadfe, #dfa9f4, #cfa5e8, #c0a1dc, #b39cd0);
+  border: 2px solid white;
+  border-radius: 10px;
+  
+  max-width: 700px;
+  width: 100%;
+
+  height: 90vh;
+  /* display: flexbox; */
+  /* align-items: center;
+  justify-content: center; */
+
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.box {
+  display: flex;
+}
+
+.buttons {
+  padding: px;
+  /* border: none; */
+  /* border-right: 2px solid white; */
+  width: 200px;
+  height: 66vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons div {
+  margin: 10px;
+  padding: 5px;
+}
+
+.message {
+  /* border: 5px solid red; */
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.textbox {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  width: 400px; /* Set your desired width */
+  height: 300px; /* Set your desired height */
+  border: 1.5px solid white;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+  /* Display ellipsis (...) for overflowed text */
+  /* white-space: nowrap;  */
+  /* Prevent text from wrapping to the next line */
+  /* Optional: Add a border for better visualization */
+}
+
+/**
 .App {
   text-align: center;
-}
+  /* justify-content: center; */
+/* align-items: center; */
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,9 +113,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
 }
 
@@ -35,4 +126,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
